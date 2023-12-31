@@ -1,0 +1,207 @@
+Javascript:js
+It is one of the basic language(html, css, js)
+It is a popular coding language. 
+It is a scripting language. 
+It is a client side language.(front end) 
+It arrived on 1995. 
+It is not related to java. 
+It is used to create a dynamic web page. 
+It is case sensitive language. 
+extension- .js 
+
+How to use Javascript 
+1-internal(inside html) 
+2-external(outside html) 
+
+advantages(external)
+1.It separates html and js 
+2.It makes html and js easire to read and maintain. 
+
+variables: To store a data.
+1- declaration var x;
+2- assignment  x = 5;or var x = 5; 
+
+Rules: 
+1.variable name can only comes in letters, digits,underscore and dollarsign. ex:var name1$_ 
+2.The first letter can't be a digit.ex var 1 name-wrong
+3.Reserved words cannot be used.ex : for, each, if, while, delete, etc.
+
+Operaters: 
+1.Arithematic Operaters(+, -, *, **, /, %, ++, --) 
+2.Assignment Operaters(=, +=, -=, *=, **=, /=, %=) 
+3.Compariser Operaters(==, !=, >, <, >=, <=) 
+4.Logical Operaters(&&, ||, !) 
+
+datatypes; 
+1 number 
+2 string 
+3 object - It is a key value pair 
+4 array - It is a collection of data 
+5 boolean- true , false 
+6 undefined - when we does not assigne a vale to a variable then datatype will be undefined and its value also be undefined. 
+
+conditional statment: 
+
+1 if 
+syntax : 
+if(condition){ 
+ }
+
+2 if-else 
+syntax :
+ if(condition) { 
+    }else { 
+ } 
+ 
+ 3 if -else if -else 
+syntax: 
+if(condition){ 
+             }else if (condition 2){ 
+             }else{    } 
+
+4 switch 
+syntax: 
+switch(condition){ case1: break; 
+                         default :}
+
+Loop statement:
+
+1.for 
+2.while 
+3.do-while
+
+Function:
+
+-It is a set of instructor used to perform a particular function/ task.
+
+1.Ananymous
+2.Named
+
+syntax:
+function functionName (){
+    //function declaration
+}
+
+functionName();// calling a function
+
+fuction gets executes only when it is called.
+
+Events:
+
+1.Onchange
+2.Onclick
+3.Onmouseover
+4.Onmouseout
+5.Onkeydown
+6.Onload
+
+Document:
+ The entire html is called document.
+ 
+DOM:(Document Object Model)
+-changing and manuplating a document is called DOM.
+
+Selectors:
+
+-It is a identifier to identify a particular element from a document.
+1.document.getElementById
+2.document.getElementsByClassName
+3.document.getElementsByTagName
+
+Dialog box:
+
+    1.alert
+    2.confirm
+    3.prompt
+
+Timer:
+
+    1.setTimeout - To delay some event
+    2.setInterval - Repeats after interval
+    3.clearTimeout
+    4.clearInterval
+ 
+Array Method:
+
+    1.push() - to add an element at the end of the array.
+    2.pop() - to remove last element of an array.
+    3.unshift() - to add an elmnt at the starting of an array.
+    4.shift() - to remove first element of an array.
+    5.concat() - to join two arrays.
+    6.sort() - will give results in ascending order.
+    7.reverse() - reverses the array (not decending).
+    8.splice() - to delete a particular element from an array.
+    9.sclice() - 
+    10.toString() - to convert array into a string.
+    11.join("")-to convert array into string.
+
+String Methods:
+
+    1.length - to get the length of the string.
+    2.indexOf() - to get the index of first occurance character.
+    3.lastIndexOf() - to get the index of last occurance of the character.
+    4.slice()
+    5.subString()
+    6.trim() - to remove the space in starting and ending.
+    7.replace() - to replace something in the string.
+    8.toLowerCase() - to convert everything into lower case.
+    9.concat() - to join two string.
+    10.charAt() - to get the letter in a particular index.
+    11.split() - to convert string into array.
+    12.startWith() - Returns true if it starts with the given value.
+    13.parseInt() - To convert string into number.
+
+Array iteration methods:
+
+    1.forEach()
+    2.map()
+    3.filter()
+    4.every()
+    5.some()
+    6.index()
+    7.lastIndex()
+    8.find()
+    9.findIndex()
+    10.includes()
+
+Date:
+
+1.Get methods:
+        getFullYear()
+        getMonth()
+        getDate()
+        getHours()
+        getMinutes()
+        getSeconds()
+        getMilliseconds()
+        getTime()
+        getDay()
+        Date.now()
+
+2.Set methods:
+        setFullYear()
+        setMonth()
+        setDate()
+        setHours()
+        setminutes()
+        setSeconds()
+        setMilliseconds()
+        setTime()
+
+Number methods:
+
+        toString() - Converts a number to a string.
+        toFixed() - Formats a number with x number of digits after decimal methods.
+        toPrecision() - Formats a number to x length.
+        toExponential() - Converts a number into an exponential notation.
+
+Global Javascript Methods:
+
+        Javascript global methods can be used on all Javascript data types.
+        These are most relevant methods, when working with numbers.
+
+Method description:
+
+    1.Number() - Returns a number, converted from its argument.
+    2.parseInt() - Parses its argument and returns an integer.
+    3.parseFloat() - parses its argument and returns a floating point number.

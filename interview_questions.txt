@@ -1,0 +1,225 @@
+1.What is javascript?
+    It is a client side scripting language.
+    It is used to create dynamic webpage
+    It came on 1995
+
+2. Selectors in js:
+    -selectors are identifiers to identify a particular element from document.
+    -The various selectors are:
+    getElementById
+    getElementsByClassName
+    getElementsByTagName
+    getElementsByName
+
+3. What is the difference between == and ===?
+
+    Both are comparision opertar but the difference is that 
+    
+    ==:1. it compares only value
+            if(1 == "1") //true
+            if(true == "true") //true
+
+       2. while comparing in == typecasting occurs
+
+    === 1.compares both value and data type
+            if(1 === "1") //false
+
+            if(true === "true") //false
+
+        2. while comparing in === typecasting does not occurs.
+
+    ex: 5 == "5" //true
+        5 ==="5" //false
+
+
+4. What is typecasting?
+    converting from one datatype to another datatype
+
+    var a = 5;
+    a = "Arun";
+
+5. What are the datatypes in js?
+    number
+    string
+    Array
+    object
+    Boolean
+    undefined
+
+6.What is the datatype of null?
+    Object
+
+7.datatype of undefined - is undefined
+
+8.What is the difference between undeclared and undefined?
+    undeclared - which doesnt exists in Programming
+        ex. console.log(x); // undeclared
+    undefined - variable is declared but doesnt have any value.
+        var a;
+        console.log(a); //undefined
+
+9. What are the ways to declare js variables?
+    var, let,const
+
+10. What are all ES6 features:
+    let and const 
+    template literals 
+    default parameter
+        ex. var  a = 5;
+        var b = a || 6; // 5
+        var c = d || 10 //10
+    enhanced object literals
+     ex. var name = "Arun"
+     var dept = "cse"
+     var age = 27
+
+     var studObj = {
+         name,
+         department : dept,
+         age
+     }
+     arrow function
+     multiline string
+     promise
+     destructuring 
+
+11. What are the differnce between let,const,var?
+    var:
+        stores in window object
+        can redeclare
+        can reassign
+        supports hoisting
+        functional scope
+    
+    let:
+        doesnt stores in window object
+        cannot redeclare
+        can reassign
+        doesnt supports hoisting
+        block scope
+
+    const:
+        doesnt stores in window object
+        cannot redeclare
+        cannot reassign
+        doesnt supports hoisting
+        block scope
+
+12. What are the ways to empty an array?
+    ex: 
+    var fruitArr = ["apple", "orange", "mango", "Pineapple"]
+    fruitArr.pop(); //remove last
+    fruitArr.shift(); //remove first
+    fruitArr.splice(); //remove other
+    fruitArr.length = 0; //remove all
+    fruitArr = []; //empty array
+
+13.What are the difference between break and continue?
+    break: to break entire loop and comes out
+    continue: it breaks only the current iteration in the loop
+
+14. What is the data type of NaN?
+    Number
+
+ 15. var car = undefined; // undefined
+    let test = ""; //string
+
+16.  1 + 2 + "3" + 4 + 5 // 3345 - 
+    ex. "3" + 7 // 37
+        1 + 2 + "3" //33
+
+17. What Are the dialog box?
+    Alert
+    confirm
+    prompt
+
+18. What are the timers in js?
+    setTimeout
+    setInterval
+    clearTimeOut
+    clearTimeInterval
+
+19.What is hoisting?
+    All the declarations of  variables and functions will be moved to the top of its scope while compling. It is called hoisting
+
+20.What is strict mode?
+    It is introduced in ES5(2009) 
+    Strict mode makes it easier to write secure code.
+    Strict mode eliminates javascript silent errors
+    Strict mode is declared by adding "use strict" to the beginning of code
+        Ex:
+            use strict
+            console.log(a); // throws error
+            var a;
+            delete a; // throws error
+            var test = function (a, a) // throws error 
+    1.using variable without declaring it, is not allowed
+    2.deleting a variable or function is not allowed
+    3.duplicating a parameter name is not allowed
+
+21. How to convert string to a number?
+    parseInt("5"); // converts as 5
+    Number("4"); // 4
+
+22. What is this keyword?
+    this keyword refers to the current object
+    ex. var studObj = {
+        fName : "Arun",
+        lName: "Kumar",
+        fullName: function(){
+            console.log(this.fName + this.lName) 
+        }
+    }
+
+23. Advantages of arrow function?
+    1.no need to use function keyword , so it reduce code.
+    2.When an arrow function has only one statement and that one statement is a return statement then no need to write return keyword.
+    3.Arrow function takes this value from its surroundings
+
+24. What is bind(),call(),apply()?
+    bind()- it is used to change the value of this keyword
+            we can bind a function in an object with another object value
+            The bind will return a function
+
+    call() -It is used to change the value of this keyword
+            we can bind a function in an object with another object 
+            It doesnt return a function.
+            The call() method takes arguments separately.
+
+    apply()-It is used to change the value of this keyword
+            we can bind a function in an object with another object
+            It doesnt return a function.
+            The apply() method takes arguments as an array.
+
+25. What is json?
+    js object notation. 
+    It is a format for storing and transporting data.
+    It is often used when data is sent from server to webpage.
+    It is language independent.
+    It is self describing and easy to understand.
+    JSON.parse()- to convert JSON to object
+    JSON.stringify()- to convert object to JSON
+
+26.What is debugging?
+    It is a process of testing,finding and reducing bugs in a computer Program
+
+27. DOM?
+    Document Object Model-changing ,manupulating an Document.
+    
+28. What is closure?
+
+29. What is event bubbling , event capturing?
+
+30 different between javascript and java?
+   javascript
+   1 It is a client side scripting language 
+   2 It runs in broweser
+   3 It does not supportes oops concepts
+   4 we canot connect with database using javascript 
+   
+
+   java
+   1 It is server side programing language
+   2 It does not runes in browser
+   3 It supportes oops concepts
+   4 we can connect with database using java

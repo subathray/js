@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>todo</title>
+    <script src="todo.js"></script>
+</head>
+
+<body onload="loadFn()">
+    <h1>Todo</h1>
+    <input type="text" id="name">
+    <button id="addBtn" onclick="addFn()">Add</button>
+    <button id="updateBtn" onclick="updateFn()">Update</button>
+    <!--<p id="pTag1"></p>-->
+    <!-- <ul id="uTag"></ul> -->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+
+</html>

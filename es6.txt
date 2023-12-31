@@ -1,0 +1,92 @@
+ECMAScript - It is a standard which gives information about how to write javascript.
+
+ES1 - 1997
+ES2 - 1998
+ES3 - 1999
+ES5 - 2009
+ES6 - 2015
+
+What is Hoisting?
+ Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+
+ES6 features:
+     1.let,const
+            let a = 5;
+            const b = 3.14;
+
+var:
+    1.It stores in window object.
+            var a = 5;
+            window.a; // 5
+
+    2.It can be redeclared.
+            var a = 5;
+            var a = 10;
+
+    3.We can reassign the value.
+            var a = 5;
+            a = 10; - no error
+    
+     4.It supports hoisting.
+     5.It have functional scope.   
+    
+
+let:
+    1.It doesn't store in window object.
+            let a = 5;
+            window.a; // undefined
+
+    2.It can't be redeclared.
+            let a = 5;
+            let a = 10; - error
+
+    3.We can reassign the value.
+            let b = 5;
+            b = 10; - NO ERROR
+ 
+    4.It doesn't supports hoisting.
+    5.It has block scope.
+
+
+const;
+    1.It doesn't store in window object. 
+            const a = 5;
+            window.a; // undefined
+
+    2.It can't be redeclared.     
+            const a = 5;
+            const a = 10; - error
+
+    3.we can't reassign the value.
+            const pie = 3.14;
+            pie = 3.15; - error
+
+    4.It doesn't supports hoisting. 
+    5.It has block scope.
+
+
+     2.default parameters
+
+
+     
+     3.template literals
+
+
+     4.multi-line strings
+
+        var temp = `sytfuhvjhvjufkuyduyfyuf fuyfjhg yfujyhvfjuyfy
+tdytfuly uyguyh uygfulygliuh gt iugliterstfckuygk kiyfvjyh uyfvuyfdukyyyfvlyu`;// tilt for multiple lines
+
+
+     5.destructuring
+     6.enhanced object literals
+        var fName = "Arun";
+        var lName = "Kumar"
+        var stdObj = {
+                fname,
+                lastName: lName
+        }
+
+     7.arrow function
+     8.promise
+

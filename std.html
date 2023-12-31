@@ -1,0 +1,40 @@
+<html>
+
+<head>
+    <title>std</title>
+    <script src="std.js"></script>
+</head>
+
+<body onload="loadFn()">
+    <h1>STUDENT</h1>
+    <label>Name:</label>
+    <input type="text" id="name">
+    <br>
+    <br>
+    <label>Age:</label>
+    <input type="number" id="age">
+    <br>
+    <br>
+    <label>Dept:</label>
+    <input type="text" id="dept">
+    <br>
+    <br>
+    <button onclick="addFn()" id="addBtn">SAVE</button>
+    <button onclick="updateFn()" id="updateBtn">Update</button>
+    <br>
+    <br>
+    <table>
+        <thead>
+            <tr>
+                <th>Name:</th>
+                <th>Age:</th>
+                <th>Dept:</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+    </table>
+</body>
+
+</html>
